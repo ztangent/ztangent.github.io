@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ztangent
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - probcomp/Gen.jl
+  - probcomp/Genify.jl
+  - JuliaPlanners/PDDL.jl
+  - JuliaPlanners/SymbolicPlanners.jl
+  - ztangent/Plinf.jl
+  - ztangent/Julog.jl
