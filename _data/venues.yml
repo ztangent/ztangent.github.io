@@ -1,6 +1,6 @@
 "NeurIPS":
   url: https://neurips.cc/
-  color: "#00369f"
+  color: "#00369F"
 
 "AAAI":
   url: https://aaai.org/Conferences/AAAI/aaai.php
@@ -8,3 +8,8 @@
 "CogSci":
   url: https://cognitivesciencesociety.org/
   color: "#B509AC"
+
+"AISTATS":
+  url: https://neurips.cc/
+  color: "#009E73"
+  

@@ -1,6 +1,25 @@
 ---
 ---
 
+@inproceedings{lew2023smcp3,
+  title = 	 {SMCP3: Sequential Monte Carlo with Probabilistic Program Proposals},
+  author =       {Lew, Alexander K. and Matheos, George and Zhi-Xuan, Tan and Ghavamizadeh, Matin and Gothoskar, Nishad and Russell, Stuart and Mansinghka, Vikash K.},
+  booktitle = 	 {Proceedings of The 26th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {7061--7088},
+  year = 	 {2023},
+  editor = 	 {Ruiz, Francisco and Dy, Jennifer and van de Meent, Jan-Willem},
+  volume = 	 {206},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--27 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v206/lew23a/lew23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v206/lew23a.html},
+  html = 	 {https://proceedings.mlr.press/v206/lew23a.html},
+  bibtex_show={true},
+  abbr={AISTATS},
+  abstract = 	 {This paper introduces SMCP3, a method for automatically implementing custom sequential Monte Carlo samplers for inference in probabilistic programs. Unlike particle filters and resample-move SMC (Gilks and Berzuini, 2001), SMCP3 algorithms can improve the quality of samples and weights using pairs of Markov proposal kernels that are also specified by probabilistic programs. Unlike Del Moral et al. (2006b), these proposals can themselves be complex probabilistic computations that generate auxiliary variables, apply deterministic transformations, and lack tractable marginal densities. This paper also contributes an efficient implementation in Gen that eliminates the need to manually derive incremental importance weights. SMCP3 thus simultaneously expands the design space that can be explored by SMC practitioners and reduces the implementation effort. SMCP3 is illustrated using applications to 3D object tracking, state-space modeling, and data clustering, showing that SMCP3 methods can simultaneously improve the quality and reduce the cost of marginal likelihood estimation and posterior inference.}
+}
+
 @inproceedings{zhi2022abstract,
   title={Abstract Interpretation for Generalized Heuristic Search in Model-Based Planning},
   author={Zhi-Xuan, Tan and Tenenbaum, Joshua B and Mansinghka, Vikash K},
