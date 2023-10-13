@@ -1,10 +1,10 @@
 ---
 ---
 
-@article{lew2023sequential,
+@inproceedings{lew2023sequential,
   title={Sequential Monte Carlo Steering of Large Language Models using Probabilistic Programs},
   author={Lew, Alexander K and Zhi-Xuan, Tan and Grand, Gabriel and Mansinghka, Vikash K},
-  journal={ICML 2023 Workshop on Sampling and Optimization in Discrete Spaces (SoDS)},
+  booktitle={ICML 2023 Workshop on Sampling and Optimization in Discrete Spaces (SoDS)},
   year={2023},
   month={7},
   abstract={Even after fine-tuning and reinforcement learning, large language models (LLMs) can be difficult, if not impossible, to control reliably with prompts alone. We propose a new inference-time approach to enforcing syntactic and semantic constraints on the outputs of LLMs, called sequential Monte Carlo (SMC) steering. The key idea is to specify language generation tasks as posterior inference problems in a class of discrete probabilistic sequence models, and replace standard decoding with sequential Monte Carlo inference. For a computational cost similar to that of beam search, SMC can steer LLMs to solve diverse tasks, including infilling, generation under syntactic constraints, and prompt intersection. To facilitate experimentation with SMC steering, we present a probabilistic programming library, LLaMPPL (this https URL), for concisely specifying new generation tasks as language model probabilistic programs, and automating steering of LLaMA-family Transformers.},
@@ -12,10 +12,10 @@
   pdf={https://arxiv.org/pdf/2306.03081.pdf},
 }
 
-@article{ying2023inferring,
+@inproceedings{ying2023inferring,
   title={Inferring the goals of communicating agents from actions and instructions},
   author={Ying, Lance and Zhi-Xuan, Tan and Mansinghka, Vikash and Tenenbaum, Joshua B},
-  journal={ICML 2023 Workshop on Theory of Mind in Communicating Agents},
+  booktitle={ICML 2023 Workshop on Theory of Mind in Communicating Agents},
   year={2023},
   month={7},
   abstract={When humans cooperate, they frequently coordinate their activity through both verbal communication and non-verbal actions, using this information to infer a shared goal and plan. How can we model this inferential ability? In this paper, we introduce a model of a cooperative team where one agent, the principal, may communicate natural language instructions about their shared plan to another agent, the assistant, using GPT-3 as a likelihood function for instruction utterances. We then show how a third person observer can infer the team's goal via multi-modal Bayesian inverse planning from actions and instructions, computing the posterior distribution over goals under the assumption that agents will act and communicate rationally to achieve them. We evaluate this approach by comparing it with human goal inferences in a multi-agent gridworld, finding that our model's inferences closely correlate with human judgments (R = 0.96). When compared to inference from actions alone, we also find that instructions lead to more rapid and less uncertain goal inference, highlighting the importance of verbal communication for cooperative agents.},
@@ -23,10 +23,10 @@
   pdf={https://arxiv.org/pdf/2306.16207.pdf},
 }
 
-@article{ying2023neuro,
+@inproceedings{ying2023neuro,
   title={The Neuro-Symbolic Inverse Planning Engine (NIPE): Modeling Probabilistic Social Inferences from Linguistic Inputs},
   author={Ying, Lance and Collins, Katherine M and Wei, Megan and Zhang, Cedegao E and Zhi-Xuan, Tan and Weller, Adrian and Tenenbaum, Joshua B and Wong, Lionel},
-  journal={ICML 2023 Workshop on Theory of Mind in Communicating Agents},
+  booktitle={ICML 2023 Workshop on Theory of Mind in Communicating Agents},
   year={2023},
   month={7},
   abstract={Human beings are social creatures. We routinely reason about other agents, and a crucial component of this social reasoning is inferring people's goals as we learn about their actions. In many settings, we can perform intuitive but reliable goal inference from language descriptions of agents, actions, and the background environments. In this paper, we study this process of language driving and influencing social reasoning in a probabilistic goal inference domain. We propose a neuro-symbolic model that carries out goal inference from linguistic inputs of agent scenarios. The "neuro" part is a large language model (LLM) that translates language descriptions to code representations, and the "symbolic" part is a Bayesian inverse planning engine. To test our model, we design and run a human experiment on a linguistic goal inference task. Our model closely matches human response patterns and better predicts human judgements than using an LLM alone.},
@@ -46,8 +46,22 @@
   selected={true},
   bibtex_show={true},
   abbr={CogSci},
-  pdf={https://arxiv.org/pdf/2106.13249.pdf}
+  pdf={2023-universalization-rule-breaking.pdf},
 }
+
+@inproceedings{tan2023bayesian,
+  title = 	 {Bayesian Inverse Motion Planning for Online Goal Inference in Continuous Domains},
+  author =       {Zhi-Xuan, Tan and Kondic, Jovana and Slocum, Stewart and Tenenbaum, Joshua B and Mansinghka, Vikash K and Hadfield-Menell, Dylan},
+  booktitle = 	 {ICRA 2023 Workshop on Cognitive Modeling in Robot Learning},
+  year = 	 {2023},
+  month = 	 {6},
+  pdf = 	 {2023-inverse-motion-planning.pdf},
+  url = 	 {https://sites.google.com/view/cognitive-modeling-icra2023-ws/contributions?authuser=0#h.dk14d3kbwe65},
+  html = 	 {https://sites.google.com/view/cognitive-modeling-icra2023-ws/contributions?authuser=0#h.dk14d3kbwe65},
+  bibtex_show={true},
+  abstract = 	 {Humans and other agents navigate their environments by acting efficiently to achieve their goals. In order to infer agents’ goals from their actions, it is thus necessary to model how agents achieve their goals efficiently. Here, we show how online goal inference and trajectory prediction in continuous domains can be performed via Bayesian inverse motion planning: By modeling an agent as an approximately Boltzmann-rational motion planner that produces low-cost trajectories while avoiding obstacles, and placing a prior over goals, we can infer the agent’s goal and future trajectory from partial trajectory observations. We compute these inferences online using a sequential Monte Carlo algorithm, which accounts for the multimodal distribution of trajectories due to obstacles, and exhibits better calibration at early timesteps than a Laplace approximation and a greedy baseline.}
+}
+
 
 @inproceedings{lew2023smcp3,
   title = 	 {SMCP3: Sequential Monte Carlo with Probabilistic Program Proposals},
@@ -58,7 +72,7 @@
   editor = 	 {Ruiz, Francisco and Dy, Jennifer and van de Meent, Jan-Willem},
   volume = 	 {206},
   series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {25--27 Apr},
+  month = 	 {4},
   publisher =    {PMLR},
   pdf = 	 {https://proceedings.mlr.press/v206/lew23a/lew23a.pdf},
   url = 	 {https://proceedings.mlr.press/v206/lew23a.html},
