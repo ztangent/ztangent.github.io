@@ -1,6 +1,41 @@
 ---
 ---
 
+@article{ying2024grounding,
+  title={Grounding Language about Belief in a Bayesian Theory-of-Mind},
+  author={Ying, Lance and Zhi-Xuan, Tan and Wong, Lionel and Mansinghka, Vikash and Tenenbaum, Joshua},
+  journal={arXiv preprint arXiv:2402.10416},
+  year={2024},
+  abstract={Despite the fact that beliefs are mental states that cannot be directly observed, humans talk about each others' beliefs on a regular basis, often using rich compositional language to describe what others think and know. What explains this capacity to interpret the hidden epistemic content of other minds? In this paper, we take a step towards an answer by grounding the semantics of belief statements in a Bayesian theory-of-mind: By modeling how humans jointly infer coherent sets of goals, beliefs, and plans that explain an agent's actions, then evaluating statements about the agent's beliefs against these inferences via epistemic logic, our framework provides a conceptual role semantics for belief, explaining the gradedness and compositionality of human belief attributions, as well as their intimate connection with goals and plans. We evaluate this framework by studying how humans attribute goals and beliefs while watching an agent solve a doors-and-keys gridworld puzzle that requires instrumental reasoning about hidden objects. In contrast to pure logical deduction, non-mentalizing baselines, and mentalizing that ignores the role of instrumental plans, our model provides a much better fit to human goal and belief attributions, demonstrating the importance of theory-of-mind for a semantics of belief.},
+  arxiv={2402.10416},
+  bibtex_show={true},
+  pdf={https://arxiv.org/pdf/2402.10416.pdf},
+}
+
+@inproceedings{zhixuan2024pragmatic,
+  title={Pragmatic Instruction Following and Goal Assistance via Cooperative Language Guided Inverse Plan Search},
+  author={Zhi-Xuan, Tan and Ying, Lance and Mansinghka, Vikash and Tenenbaum, Joshua B},
+  booktitle={Proceedings of the 23rd International Conference on Autonomous Agents and MultiAgent Systems}, 
+  year={2024},
+  abstract={People often give instructions whose meaning is ambiguous without further context, expecting that their actions or goals will disambiguate their intentions. How can we build assistive agents that follow such instructions in a flexible, context-sensitive manner? This paper introduces cooperative language-guided inverse plan search (CLIPS), a Bayesian agent architecture for pragmatic instruction following and goal assistance. Our agent assists a human by modeling them as a cooperative planner who communicates joint plans to the assistant, then performs multimodal Bayesian inference over the human's goal from actions and language, using large language models (LLMs) to evaluate the likelihood of an instruction given a hypothesized plan. Given this posterior, our assistant acts to minimize expected goal achievement cost, enabling it to pragmatically follow ambiguous instructions and provide effective assistance even when uncertain about the goal. We evaluate these capabilities in two cooperative planning domains (Doors, Keys & Gems and VirtualHome), finding that CLIPS significantly outperforms GPT-4V, LLM-based literal instruction following and unimodal inverse planning in both accuracy and helpfulness, while closely matching the inferences and assistive judgments provided by human raters.},
+  arxiv={2402.17930},
+  bibtex_show={true},
+  abbr={AAMAS},
+  pdf={2024-clips.pdf},
+}
+
+@inproceedings{oldenburg2024learning,
+  title={Learning and Sustaining Shared Normative Systems via Bayesian Rule Induction in Markov Games},
+  author={Oldenburg, Ninell and Zhi-Xuan, Tan},
+  booktitle={Proceedings of the 23rd International Conference on Autonomous Agents and MultiAgent Systems}, 
+  year={2024},
+  abstract={A universal feature of human societies is the adoption of systems of rules and norms in the service of cooperative ends. How can we build learning agents that do the same, so that they may flexibly cooperate with the human institutions they are embedded in? We hypothesize that agents can achieve this by assuming there exists a shared set of norms that most others comply with while pursuing their individual desires, even if they do not know the exact content of those norms. By assuming shared norms, a newly introduced agent can infer the norms of an existing population from observations of compliance and violation. Furthermore, groups of agents can converge to a shared set of norms, even if they initially diverge in their beliefs about what the norms are. This in turn enables the stability of the normative system: since agents can bootstrap common knowledge of the norms, this leads the norms to be widely adhered to, enabling new entrants to rapidly learn those norms. We formalize this framework in the context of Markov games and demonstrate its operation in a multi-agent environment via approximately Bayesian rule induction of obligative and prohibitive norms. Using our approach, agents are able to rapidly learn and sustain a variety of cooperative institutions, including resource management norms and compensation for pro-social labor, promoting collective welfare while still allowing agents to act in their own interests.},
+  arxiv={2402.13399},
+  bibtex_show={true},
+  abbr={AAMAS},
+  pdf={https://arxiv.org/pdf/2402.13399.pdf},
+}
+
 @inproceedings{lew2023sequential,
   title={Sequential Monte Carlo Steering of Large Language Models using Probabilistic Programs},
   author={Lew, Alexander K and Zhi-Xuan, Tan and Grand, Gabriel and Mansinghka, Vikash K},
@@ -15,11 +50,14 @@
 @inproceedings{ying2023inferring,
   title={Inferring the goals of communicating agents from actions and instructions},
   author={Ying, Lance and Zhi-Xuan, Tan and Mansinghka, Vikash and Tenenbaum, Joshua B},
-  booktitle={ICML 2023 Workshop on Theory of Mind in Communicating Agents},
+  booktitle={Proceedings of the 2023 AAAI Fall Symposia},
+  volume={2},
+  number={1},
+  pages={26--33},
   year={2023},
-  month={7},
   abstract={When humans cooperate, they frequently coordinate their activity through both verbal communication and non-verbal actions, using this information to infer a shared goal and plan. How can we model this inferential ability? In this paper, we introduce a model of a cooperative team where one agent, the principal, may communicate natural language instructions about their shared plan to another agent, the assistant, using GPT-3 as a likelihood function for instruction utterances. We then show how a third person observer can infer the team's goal via multi-modal Bayesian inverse planning from actions and instructions, computing the posterior distribution over goals under the assumption that agents will act and communicate rationally to achieve them. We evaluate this approach by comparing it with human goal inferences in a multi-agent gridworld, finding that our model's inferences closely correlate with human judgments (R = 0.96). When compared to inference from actions alone, we also find that instructions lead to more rapid and less uncertain goal inference, highlighting the importance of verbal communication for cooperative agents.},
   arxiv={2306.16207},
+  bibtex_show={true},
   pdf={https://arxiv.org/pdf/2306.16207.pdf},
 }
 
@@ -31,6 +69,7 @@
   month={7},
   abstract={Human beings are social creatures. We routinely reason about other agents, and a crucial component of this social reasoning is inferring people's goals as we learn about their actions. In many settings, we can perform intuitive but reliable goal inference from language descriptions of agents, actions, and the background environments. In this paper, we study this process of language driving and influencing social reasoning in a probabilistic goal inference domain. We propose a neuro-symbolic model that carries out goal inference from linguistic inputs of agent scenarios. The "neuro" part is a large language model (LLM) that translates language descriptions to code representations, and the "symbolic" part is a Bayesian inverse planning engine. To test our model, we design and run a human experiment on a linguistic goal inference task. Our model closely matches human response patterns and better predicts human judgements than using an LLM alone.},
   arxiv={2306.14325},
+  bibtex_show={true},
   pdf={https://arxiv.org/pdf/2306.14325.pdf},
 }
 
@@ -43,13 +82,12 @@
   number={45},
   year={2023},
   month={7},
-  selected={true},
   bibtex_show={true},
   abbr={CogSci},
   pdf={2023-universalization-rule-breaking.pdf},
 }
 
-@inproceedings{tan2023bayesian,
+@inproceedings{zhixuan2023bayesian,
   title = 	 {Bayesian Inverse Motion Planning for Online Goal Inference in Continuous Domains},
   author =       {Zhi-Xuan, Tan and Kondic, Jovana and Slocum, Stewart and Tenenbaum, Joshua B and Mansinghka, Vikash K and Hadfield-Menell, Dylan},
   booktitle = 	 {ICRA 2023 Workshop on Cognitive Modeling in Robot Learning},
@@ -82,7 +120,7 @@
   abstract = 	 {This paper introduces SMCP3, a method for automatically implementing custom sequential Monte Carlo samplers for inference in probabilistic programs. Unlike particle filters and resample-move SMC (Gilks and Berzuini, 2001), SMCP3 algorithms can improve the quality of samples and weights using pairs of Markov proposal kernels that are also specified by probabilistic programs. Unlike Del Moral et al. (2006b), these proposals can themselves be complex probabilistic computations that generate auxiliary variables, apply deterministic transformations, and lack tractable marginal densities. This paper also contributes an efficient implementation in Gen that eliminates the need to manually derive incremental importance weights. SMCP3 thus simultaneously expands the design space that can be explored by SMC practitioners and reduces the implementation effort. SMCP3 is illustrated using applications to 3D object tracking, state-space modeling, and data clustering, showing that SMCP3 methods can simultaneously improve the quality and reduce the cost of marginal likelihood estimation and posterior inference.}
 }
 
-@inproceedings{zhi2022abstract,
+@inproceedings{zhixuan2022abstract,
   title={Abstract Interpretation for Generalized Heuristic Search in Model-Based Planning},
   author={Zhi-Xuan, Tan and Tenenbaum, Joshua B and Mansinghka, Vikash K},
   booktitle={ICML 2022 Workshop on Beyond Bayes: Paths Towards Universal Reasoning Systems},
@@ -93,7 +131,7 @@
   pdf={2022-absint-planning.pdf}
 }
 
-@inproceedings{zhi2022solving,
+@inproceedings{zhixuan2022solving,
   title={Solving the Baby Intuitions Benchmark with a Hierarchically Bayesian Theory of Mind},
   author={Zhi-Xuan, Tan and Gothoskar, Nishad and Pollok, Falk and Gutfreund, Dan and Tenenbaum, Joshua B and Mansinghka, Vikash K},
   booktitle={RSS 2022 Workshop on Social Intelligence in Humans and Robots},
@@ -104,7 +142,7 @@
   pdf={2022-solving-bib.pdf}
 }
 
-@phdthesis{zhi2022pddl,
+@phdthesis{zhixuan2022pddl,
   title={PDDL. jl: An Extensible Interpreter and Compiler Interface for Fast and Flexible AI Planning},
   author={Zhi-Xuan, Tan},
   year={2022},
@@ -134,7 +172,7 @@
   pdf={https://arxiv.org/pdf/2106.13249.pdf}
 }
 
-@inproceedings{zhi2021genify,
+@inproceedings{zhixuan2021genify,
   title={Genify.jl: Transforming Julia into Gen to enable programmable inference},
   author={Zhi-Xuan, Tan and Becker, McCoy R and Mansinghka, Vikash K.},
   booktitle={Languages For Inference Workshop (LAFI 2021), 48th ACM SIGPLAN Symposium on Principles of Programming Languages},
@@ -151,7 +189,7 @@
   code={https://github.com/probcomp/Genify.jl}
 }
 
-@inproceedings{zhi2020online,
+@inproceedings{zhixuan2020online,
   title={Online Bayesian Goal Inference for Boundedly Rational Planning Agents},
   author={Zhi-Xuan, Tan and Mann, Jordyn and Silver, Tom and Tenenbaum, Josh and Mansinghka, Vikash},
   booktitle={Proceedings of the 34th International Conference on Neural Information Processing Systems},
@@ -167,7 +205,7 @@
   pdf={https://proceedings.neurips.cc/paper/2020/file/df3aebc649f9e3b674eeb790a4da224e-Paper.pdf}
 }
 
-@inproceedings{zhi2020factorized,
+@inproceedings{zhixuan2020factorized,
   title={Factorized Inference in Deep Markov Models for Incomplete Multimodal Time Series},
   author={Zhi-Xuan, Tan and Soh, Harold and Ong, Desmond C},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},

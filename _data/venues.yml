@@ -12,3 +12,7 @@
 "AISTATS":
   url: https://aistats.org/
   color: "#009E73"
+
+"AAMAS":
+  url: https://dl.acm.org/conference/aamas
+  color: "#FFC107"
