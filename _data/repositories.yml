@@ -3,8 +3,8 @@ github_users:
 
 github_repos:
   - probcomp/Gen.jl
-  - probcomp/Genify.jl
+  - probcomp/GenParticleFilters.jl
   - JuliaPlanners/PDDL.jl
   - JuliaPlanners/SymbolicPlanners.jl
-  - ztangent/Plinf.jl
+  - probcomp/InversePlanning.jl
   - ztangent/Julog.jl
