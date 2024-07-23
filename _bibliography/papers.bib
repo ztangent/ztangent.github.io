@@ -1,15 +1,35 @@
 ---
 ---
 
+@article{zhixuan2024infinite,
+  title={Infinite Ends from Finite Samples: Open-Ended Goal Inference as Top-Down Bayesian Filtering of Bottom-Up Proposals},
+  author={Zhi-Xuan, Tan and Kang, Gloria and Mansinghka, Vikash and Tenenbaum, Joshua B},
+  journal={Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={46},
+  number={46},
+  year={2024},
+  month={7},
+  abstract={The space of human goals is tremendously vast; and yet, from just a few moments of watching a scene or reading a story, we seem to spontaneously infer a range of plausible motivations for the people and characters involved. What explains this remarkable capacity for intuiting other agents' goals, despite the infinitude of ends they might pursue? And how does this cohere with our understanding of other people as approximately rational agents? In this paper, we introduce a sequential Monte Carlo model of open-ended goal inference, which combines top-down Bayesian inverse planning with bottom-up sampling based on the statistics of co-occurring subgoals. By proposing goal hypotheses related to the subgoals achieved by an agent, our model rapidly generates plausible goals without exhaustive search, then filters out goals that would be irrational given the actions taken so far. We validate this model in a goal inference task called Block Words, where participants try to guess the word that someone is stacking out of lettered blocks. In comparison to both heuristic bottom-up guessing and exact Bayesian inference over hundreds of goals, our model better predicts the mean, variance, efficiency, and resource rationality of human goal inferences, achieving similar accuracy to the exact model at a fraction of the cognitive cost, while also explaining garden-path effects that arise from misleading bottom-up cues. Our experiments thus highlight the importance of uniting top-down and bottom-up models for explaining the speed, accuracy, and generality of human theory-of-mind.},
+  bibtex_show={true},
+  abbr={CogSci},
+  html={https://escholarship.org/uc/item/2tk4d5jw},
+  pdf={2024-open-ended-goal-inference.pdf},
+}
+
 @article{ying2024grounding,
   title={Grounding Language about Belief in a Bayesian Theory-of-Mind},
   author={Ying, Lance and Zhi-Xuan, Tan and Wong, Lionel and Mansinghka, Vikash and Tenenbaum, Joshua},
-  journal={arXiv preprint arXiv:2402.10416},
+  journal={Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={46},
+  number={46},
   year={2024},
-  abstract={Despite the fact that beliefs are mental states that cannot be directly observed, humans talk about each others' beliefs on a regular basis, often using rich compositional language to describe what others think and know. What explains this capacity to interpret the hidden epistemic content of other minds? In this paper, we take a step towards an answer by grounding the semantics of belief statements in a Bayesian theory-of-mind: By modeling how humans jointly infer coherent sets of goals, beliefs, and plans that explain an agent's actions, then evaluating statements about the agent's beliefs against these inferences via epistemic logic, our framework provides a conceptual role semantics for belief, explaining the gradedness and compositionality of human belief attributions, as well as their intimate connection with goals and plans. We evaluate this framework by studying how humans attribute goals and beliefs while watching an agent solve a doors-and-keys gridworld puzzle that requires instrumental reasoning about hidden objects. In contrast to pure logical deduction, non-mentalizing baselines, and mentalizing that ignores the role of instrumental plans, our model provides a much better fit to human goal and belief attributions, demonstrating the importance of theory-of-mind for a semantics of belief.},
+  month={7},
+  abstract={Despite the fact that beliefs are mental states that cannot be directly observed, humans talk about each others' beliefs on a regular basis, often using rich compositional language to describe what others think and know. What explains this capacity to interpret the hidden epistemic content of other minds? In this paper, we take a step towards an answer by grounding the semantics of belief statements in a Bayesian theory-of-mind: By modeling how humans jointly infer coherent sets of goals, beliefs, and plans that explain an agent's actions, then evaluating statements about the agent's beliefs against these inferences via epistemic logic, our framework provides a functional role semantics for belief, explaining the gradedness and compositionality of human belief attributions, as well as their intimate connection with goals and plans. We evaluate this framework by studying how humans attribute goals and evaluate belief sentences while watching an agent solve a doors-and-keys gridworld puzzle that requires instrumental reasoning about hidden objects. In contrast to pure logical deduction, non-mentalizing baselines, and mentalizing that ignores the role of instrumental plans, our model provides a much better fit to human goal and belief attributions, demonstrating the importance of theory-of-mind for modeling how humans understand language about beliefs.},
   arxiv={2402.10416},
   bibtex_show={true},
-  pdf={https://arxiv.org/pdf/2402.10416.pdf},
+  abbr={CogSci},
+  html={https://escholarship.org/uc/item/2tk4d5jw},
+  pdf={https://escholarship.org/content/qt2tk4d5jw/qt2tk4d5jw.pdf},
 }
 
 @inproceedings{zhixuan2024pragmatic,
@@ -33,7 +53,7 @@
   arxiv={2402.13399},
   bibtex_show={true},
   abbr={AAMAS},
-  pdf={https://arxiv.org/pdf/2402.13399.pdf},
+  pdf={2024-norm-learning-markov-games.pdf},
 }
 
 @inproceedings{lew2023sequential,
@@ -44,6 +64,7 @@
   month={7},
   abstract={Even after fine-tuning and reinforcement learning, large language models (LLMs) can be difficult, if not impossible, to control reliably with prompts alone. We propose a new inference-time approach to enforcing syntactic and semantic constraints on the outputs of LLMs, called sequential Monte Carlo (SMC) steering. The key idea is to specify language generation tasks as posterior inference problems in a class of discrete probabilistic sequence models, and replace standard decoding with sequential Monte Carlo inference. For a computational cost similar to that of beam search, SMC can steer LLMs to solve diverse tasks, including infilling, generation under syntactic constraints, and prompt intersection. To facilitate experimentation with SMC steering, we present a probabilistic programming library, LLaMPPL (this https URL), for concisely specifying new generation tasks as language model probabilistic programs, and automating steering of LLaMA-family Transformers.},
   arxiv={2306.03081},
+  bibtex_show={true},
   pdf={https://arxiv.org/pdf/2306.03081.pdf},
 }
 
