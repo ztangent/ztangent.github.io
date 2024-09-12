@@ -181,6 +181,9 @@ blockquote {
   }
   .navbar-brand {
     color: var(--global-text-color);
+    em, strong, span {
+      color: var(--global-text-color);
+    }
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
