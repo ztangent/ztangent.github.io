@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I gave a webinar on [*Pluralism in AI Alignment*](https://youtu.be/GUzY24HhQME), hosted by ALIGN, the AI Alignment Network in Japan.
+I gave a webinar on [**Pluralism in AI Alignment**](https://youtu.be/GUzY24HhQME), hosted by ALIGN, the AI Alignment Network in Japan, based on prior work on [**Contractualist AI Alignment**](https://www.alignmentforum.org/posts/Cty2rSMut483QgBQ2/).

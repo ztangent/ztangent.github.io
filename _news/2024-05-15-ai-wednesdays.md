@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I gave a talk on *Towards Reliable AI Assistants via Probabilistic Programming*, at AI Wednesdays, a space for AI builders and engineers in the Singaporean civil service.
+I gave a talk on **Towards Reliable AI Assistants via Probabilistic Programming**, at AI Wednesdays, a space for AI builders and engineers in the Singaporean civil service.

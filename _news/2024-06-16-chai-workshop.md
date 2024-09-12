@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I gave an invited talk on *Human-Aligned Language Agents via Cooperative Language-Guided Inverse Planning* at the [8th Annual CHAI Workshop](https://humancompatible.ai/chai2024/).
+I gave an invited talk on **Human-Aligned Language Agents via Cooperative Language-Guided Inverse Planning** at the [8th Annual CHAI Workshop](https://humancompatible.ai/chai2024/).

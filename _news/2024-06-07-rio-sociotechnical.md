@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I gave an invited talk on going [*Beyond Preferences in AI Alignment*](https://arxiv.org/abs/2408.16984) at the Rio Sociotechnical AI Safety Workshop, co-located with FAccT 2024.
+I gave an invited talk on going [**Beyond Preferences in AI Alignment**](https://arxiv.org/abs/2408.16984) at the Rio Sociotechnical AI Safety Workshop, co-located with FAccT 2024.
