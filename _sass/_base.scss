@@ -24,6 +24,9 @@ table {
 
 a, table.table a {
   color: var(--global-theme-color);
+  em strong span {
+    color: inherit;
+  }
   &:hover {
     color: var(--global-theme-color);
     text-decoration: underline;
