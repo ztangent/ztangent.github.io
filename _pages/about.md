@@ -31,7 +31,9 @@ I publish under the name "Tan Zhi-Xuan". This means an [APA citation](https://ap
 
 ## mentoring & teaching
 
-I am fortunate to have worked with and mentored many Masters and junior PhD students over the course of my PhD, including Jordyn Mann (on [neurosymbolic goal inference](https://dspace.mit.edu/handle/1721.1/130701)), [Gloria Lin](https://gzlin7.github.io/) (on [active structure learning for Gaussian Processes](https://dspace.mit.edu/handle/1721.1/143176)), [Jovana Kondic](https://scholar.google.com/citations?user=CmAO43YAAAAJ&hl=en) (on [inverse motion planning](https://dspace.mit.edu/handle/1721.1/153789)), and [Lance Ying](https://scholar.harvard.edu/lanceying/home) (on [integrating large language models with Bayesian theory-of-mind](https://arxiv.org/abs/2408.12022)). I have also served as a mentor for the [PIBBSS Summer Fellowship](https://pibbss.ai/fellowship/) from 2022 to 2024, working with [Zachary Peck](https://researchdirectory.uc.edu/p/peckzy), [Mel Andrews](https://mel-andrews.com/), [Ninell Oldenburg](https://ninell-oldenburg.github.io/), and [Agustín Martinez Suñé](https://agusmartinez.ar/) on a range of topics across philosophy of AI, social norm learning, and safety guarantees for LLM-based agents.
+I am fortunate to have worked with and mentored many Masters and junior PhD students over the course of my PhD, including Jordyn Mann (on neurosymbolic goal inference<sup>[13][ref_neurosym]</sup>), [Gloria Lin](https://gzlin7.github.io/) (on active structure learning for Gaussian Processes<sup>[14][ref_gpactive]</sup>), [Jovana Kondic](https://scholar.google.com/citations?user=CmAO43YAAAAJ&hl=en) (on inverse motion planning<sup>[15][ref_imp]</sup>), and [Lance Ying](https://scholar.harvard.edu/lanceying/home) (on integrating large language models with Bayesian theory-of-mind<sup>[16][ref_labtom]</sup>).
+
+I have also served as a mentor for the [PIBBSS Summer Fellowship](https://pibbss.ai/fellowship/) from 2022 to 2024, working with [Zachary Peck](https://researchdirectory.uc.edu/p/peckzy), [Mel Andrews](https://mel-andrews.com/), [Ninell Oldenburg](https://ninell-oldenburg.github.io/), and [Agustín Martinez Suñé](https://agusmartinez.ar/) on a range of topics across philosophy of AI, social norm learning, and safety guarantees for LLM-based agents.
 
 In Spring 2022, I was a teaching assistant for the graduate seminar on [Bayesian Modeling and Inference](https://tamarabroderick.com/course_6_435_2022_spring.html) taught by [Tamara Broderick](https://tamarabroderick.com/). As a TA, I supported students in understanding and presenting papers on variational inference, MCMC methods, and Bayesian non-parametrics, while providing guidance and debugging support for their course projects.
 
@@ -47,3 +49,7 @@ In Spring 2022, I was a teaching assistant for the graduate seminar on [Bayesian
 [ref_genify]: https://popl21.sigplan.org/details/lafi-2021-papers/5/
 [ref_pddljl]: https://dspace.mit.edu/handle/1721.1/143179
 [ref_absint]: https://arxiv.org/abs/2208.02938
+[ref_neurosym]: https://dspace.mit.edu/handle/1721.1/130701
+[ref_gpactive]: https://dspace.mit.edu/handle/1721.1/143176
+[ref_imp]: https://dspace.mit.edu/handle/1721.1/153789
+[ref_labtom]: https://arxiv.org/abs/2408.12022
