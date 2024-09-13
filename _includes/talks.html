@@ -4,6 +4,10 @@
             {%- assign talks_size = site.talks | size -%}
             <div class="table-responsive">
               <table class="table table-sm table-borderless">
+                <colgroup>
+                  <col span="1" style="width: 15%;">
+                  <col span="1" style="width: 85%;">
+               </colgroup>
               {%- assign talks = site.talks | reverse -%}
               {% if page.talks_limit %}
               {% assign talks_limit = page.talks_limit %}
@@ -18,6 +22,9 @@
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
                     {%- else -%} 
                       <a class="talks-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {%- endif %}
+                    {% if item.transcript_url -%} 
+                      <a class="talks-transcript" href="{{ item.transcript }}">[Transcript]</a>
                     {%- endif %}
                     <br>
                     <em>{{ item.venue }}</em>
