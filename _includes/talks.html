@@ -26,12 +26,10 @@
                     <br>
                     <em>{{ item.venue }}</em>
                     {% if item.transcript -%} 
-                      &nbsp;
                       <a class="talks-transcript" href="{{ item.transcript }}">[Transcript]</a>
                     {%- endif %}
                     {% if item.note -%} 
-                      &nbsp;
-                      {{ item.note }}
+                      [{{ item.note }}]
                     {%- endif %}
                   </td>
                 </tr>
