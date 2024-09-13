@@ -23,11 +23,16 @@
                     {%- else -%} 
                       <a class="talks-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
                     {%- endif %}
-                    {% if item.transcript_url -%} 
-                      <a class="talks-transcript" href="{{ item.transcript }}">[Transcript]</a>
-                    {%- endif %}
                     <br>
                     <em>{{ item.venue }}</em>
+                    {% if item.transcript -%} 
+                      &nbsp;
+                      <a class="talks-transcript" href="{{ item.transcript }}">[Transcript]</a>
+                    {%- endif %}
+                    {% if item.note -%} 
+                      &nbsp;
+                      {{ item.note }}
+                    {%- endif %}
                   </td>
                 </tr>
               {%- endfor %} 
