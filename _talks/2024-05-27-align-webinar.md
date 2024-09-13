@@ -6,4 +6,4 @@ related_posts: false
 venue: ALIGN Webinar Series
 ---
 
-[**Pluralism in AI Alignment**](https://youtu.be/GUzY24HhQME)
+[**Pluralism in AI Alignment: Philosophy, Governance, and Research**](https://youtu.be/GUzY24HhQME)
