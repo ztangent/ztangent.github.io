@@ -16,3 +16,11 @@
 "AAMAS":
   url: https://dl.acm.org/conference/aamas
   color: "#1E88E5"
+
+"Nat.Hum.Behav.":
+  url: https://www.nature.com/nathumbehav/
+  color: "#000000"  
+
+"Phil.Studies":
+  url: https://link.springer.com/journal/11098
+  color: "#00AFBD"
