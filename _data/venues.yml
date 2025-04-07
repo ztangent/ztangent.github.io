@@ -17,6 +17,14 @@
   url: https://dl.acm.org/conference/aamas
   color: "#1E88E5"
 
+"TACL":
+  url: https://transacl.org/
+  color: "#AAE4F0"
+
+"TopiCS":
+  url: https://onlinelibrary.wiley.com/journal/17568765
+  color: "#008080"
+
 "Nat.Hum.Behav.":
   url: https://www.nature.com/nathumbehav/
   color: "#000000"  
