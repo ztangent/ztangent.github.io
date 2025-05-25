@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "Pronunciation: ɕɥɛn / sh-yen"
+subtitle: "Presidential Young Professor (Incoming), NUS Computer Science"
 
 profile:
   align: right
@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an incoming assistant professor in the National University of Singapore's [Department of Computer Science](https://www.comp.nus.edu.sg/cs/), starting in August 2025. I am currently recruiting PhD students, post-doctoral researchers, and research assistants — see the [recruiting page](/recruiting) for details!
+I am an incoming Assistant Professor in the National University of Singapore's [Department of Computer Science](https://www.comp.nus.edu.sg/cs/) with a joint appointment at the [A*STAR Institute of High Performance Computing (IHPC)](https://www.a-star.edu.sg/ihpc), starting in August 2025. *I am currently recruiting PhD students, post-doctoral researchers, and research assistants — see the [recruiting page](/recruiting) for details!*
 
 Previously, I completed my PhD in the the MIT [Probabilistic Computing Project](http://probcomp.csail.mit.edu/) and [Computational Cognitive Science lab](https://cocosci.mit.edu/), advised by [Vikash Mansinghka](http://probcomp.csail.mit.edu/principal-investigator/) and [Josh Tenenbaum](https://cocosci.mit.edu/josh).
 
