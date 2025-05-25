@@ -16,7 +16,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a 6th year PhD student in the MIT [Probabilistic Computing Project](http://probcomp.csail.mit.edu/) and [Computational Cognitive Science lab](https://cocosci.mit.edu/), advised by [Vikash Mansinghka](http://probcomp.csail.mit.edu/principal-investigator/) and [Josh Tenenbaum](https://cocosci.mit.edu/josh).
+I am an incoming assistant professor in the National University of Singapore's [Department of Computer Science](https://www.comp.nus.edu.sg/cs/), starting in August 2025. I am currently recruiting PhD students, post-doctoral researchers, and research assistants — see the [recruiting page](/recruiting) for details!
+
+Previously, I completed my PhD in the the MIT [Probabilistic Computing Project](http://probcomp.csail.mit.edu/) and [Computational Cognitive Science lab](https://cocosci.mit.edu/), advised by [Vikash Mansinghka](http://probcomp.csail.mit.edu/principal-investigator/) and [Josh Tenenbaum](https://cocosci.mit.edu/josh).
 
 My research sits at the intersection of *Bayesian modeling*, *AI alignment*, and *cognitive science*, asking questions like:
 - How can we specify rich yet structured generative models of human reasoning, decision-making, and value formation?<sup>[1][ref_sips],[2][ref_brbtom],[3][ref_clips],[4][ref_namg],[5][ref_beyond]</sup>
@@ -36,6 +38,8 @@ I am fortunate to have worked with and mentored many Masters and junior PhD stud
 I have also served as a mentor for the [PIBBSS Summer Fellowship](https://pibbss.ai/fellowship/) from 2022 to 2024, working with [Zachary Peck](https://researchdirectory.uc.edu/p/peckzy), [Mel Andrews](https://mel-andrews.com/), [Ninell Oldenburg](https://ninell-oldenburg.github.io/), and [Agustín Martinez Suñé](https://agusmartinez.ar/) on a range of topics across philosophy of AI, social norm learning<sup>[4][ref_namg]</sup>, and safety guarantees for LLM-based agents.
 
 In Spring 2022, I was a teaching assistant for the graduate seminar on [Bayesian Modeling and Inference](https://tamarabroderick.com/course_6_435_2022_spring.html) taught by [Tamara Broderick](https://tamarabroderick.com/). As a TA, I supported students in understanding and presenting papers on variational inference, MCMC methods, and Bayesian non-parametrics, while providing guidance and debugging support for their course projects.
+
+If you are interested in working with me, please see my [recruiting page](/recruiting)!
 
 [ref_sips]: https://arxiv.org/abs/2006.07532
 [ref_brbtom]: https://arxiv.org/abs/2106.13249

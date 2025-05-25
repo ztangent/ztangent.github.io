@@ -4,7 +4,7 @@ permalink: /repositories/
 title: Repositories
 description:
 nav: true
-nav_order: 4
+nav_order: 5
 profile:
   image: repo-profile.png
   image_circular: false # crops the image to make it circular
