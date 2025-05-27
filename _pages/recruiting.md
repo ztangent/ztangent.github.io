@@ -28,7 +28,7 @@ To that end, I am recruiting PhD students, post-doctoral researchers, research a
   - Multi-resolution world/agent modeling via probabilistic programs
   - Belief-space planning with symbolic/abstract belief representations
 
-For a summary of my research interests and tastes, check out [the talk I gave for my PhD thesis defense](https://www.youtube.com/watch?v=cT6vm2tdJTQ), or my [faculty research statement](/assets/2024-faculty-research-statement.pdf). See my [about page](/) for mentees I have previously worked with.
+For a summary of my research interests and tastes, check out [the talk I gave for my PhD thesis defense](https://www.youtube.com/watch?v=cT6vm2tdJTQ), or my [faculty research statement](/assets/pdf/2024-faculty-research-statement.pdf). See my [about page](/) for mentees I have previously worked with.
 
 If you are interested in working with me on these topics (or potentially others), please email ***xuan [at] mit [dot] edu*** sharing more about your interests and background! (If you're nervous about sending an email, Eugene Vinitsky has written [a great guide](https://www.eugenevinitsky.com/posts/coldemails/) on how to send a cold emails to researchers.)
 
