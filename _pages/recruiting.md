@@ -7,9 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-In August 2025, I will be starting as an Assistant Professor in the National University of Singapore's [Department of Computer Science](https://www.comp.nus.edu.sg/cs/), and establishing a lab centered on ***scaling cooperative intelligence*** via rational, model-based AI engineering.
-
-To that end, I am recruiting PhD students, post-doctoral researchers, research assistants, and visiting students interested in any of the following topics:
+As the principal investigator of the [Cooperative Intelligence & Systems (CoSI)](https://cosilab.github.io) lab in the NUS Computer Science department, I am recruiting PhD students, post-doctoral researchers, research assistants, and visiting students interested in any of the following topics:
 
 - Modeling and engineering [human-like cooperative agents](https://www.nature.com/articles/s41562-024-01991-9), e.g.:
   - [Bayesian theory of mind](https://www.nature.com/articles/s41562-017-0064) and [inverse planning](https://arxiv.org/abs/2006.07532)
@@ -28,10 +26,8 @@ To that end, I am recruiting PhD students, post-doctoral researchers, research a
   - Multi-resolution world/agent modeling via probabilistic programs
   - Belief-space planning with symbolic/abstract belief representations
 
-For a summary of my research interests and tastes, check out [the talk I gave for my PhD thesis defense](https://www.youtube.com/watch?v=cT6vm2tdJTQ), or my [faculty research statement](/assets/pdf/2024-faculty-research-statement.pdf). See my [about page](/) for mentees I have previously worked with.
+For a summary of my research interests and tastes, check out [the talk I gave for my PhD thesis defense](https://www.youtube.com/watch?v=cT6vm2tdJTQ), my [faculty research statement](/assets/pdf/2024-faculty-research-statement.pdf), or my [start-up grant proposal](/assets/pdf/2025-startup-grant-proposal.pdf). See my [about page](/) for mentees I have previously worked with.
 
-If you are interested in working with me on these topics (or potentially others), please email ***xuan [at] mit [dot] edu*** sharing more about your interests and background! (If you're nervous about sending an email, Eugene Vinitsky has written [a great guide](https://www.eugenevinitsky.com/posts/coldemails/) on how to send a cold emails to researchers.)
+If you are interested in working with me on these topics (or potentially others), please email ***xuan [at] comp.nus.edu.sg*** sharing more about your interests and background! (If you're nervous about sending an email, Eugene Vinitsky has written [a great guide](https://www.eugenevinitsky.com/posts/coldemails/) on how to send a cold emails to researchers.)
 
 For ***prospective PhD students***, [the PhD program at NUS Computer Science](https://www.comp.nus.edu.sg/programmes/pg/phdcs/application/) has *two intakes*: August (apply by 15 December the previous year) and January (apply by 15 June the previous year). For guidance on how to prepare a strong PhD application, the [MIT EECS Communication Lab has useful examples and advice](https://mitcommlab.mit.edu/eecs/commkit/graduate-school-statement-of-purpose/).
-
-The next application deadline is **15 June 2025**, so if you are interested in working with me from January 2026, please reach out soon, and also submit an application! 
