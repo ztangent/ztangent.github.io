@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "Incoming Assistant Professor, NUS Computer Science"
+subtitle: "Assistant Professor, NUS Computer Science"
 
 profile:
   align: right
