@@ -14,7 +14,7 @@ footer_text: >
 keywords: academic-website, bayesian-modeling, ai-alignment, cognitive-science, probabilistic-programming  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🌸 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ✨ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://ztangent.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -178,17 +178,22 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-archives
-  - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
+  - jekyll-get-json
   - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
+  - jekyll-regex-replace
   - jekyll/scholar
   - jekyll-sitemap
-  - jekyll-target-blank
+  - jekyll-tabs
+  - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - terser
 
 # Sitemap settings
 defaults:
