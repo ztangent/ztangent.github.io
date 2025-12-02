@@ -6,7 +6,7 @@ subtitle: "Assistant Professor, NUS Computer Science"
 
 profile:
   align: right
-  image: profile.jpg
+  image: headshot.jpg
   image_circular: false # crops the image to make it circular
 
 news: true  # includes a list of news items
@@ -16,11 +16,17 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an Assistant Professor in the National University of Singapore's [Department of Computer Science](https://www.comp.nus.edu.sg/cs/) with a joint appointment at the [A\*STAR Institute of High Performance Computing (IHPC)](https://www.a-star.edu.sg/ihpc). I run the [Cooperative Intelligence & Systems (CoSI)](https://cosilab.github.io) lab, which is focused on ***scaling cooperative intelligence*** via rational, model-based AI engineering.
+I am an Assistant Professor in the National University of Singapore's [Department of Computer Science](https://www.comp.nus.edu.sg/cs/) with a joint appointment at the [A\*STAR Institute of High Performance Computing (IHPC)](https://www.a-star.edu.sg/ihpc).
+
+I run the [Cooperative Intelligence & Systems (CoSI)](https://cosilab.github.io) lab, which is focused on ***scaling cooperative intelligence*** via rational, model-based AI engineering.
 
 *I am actively recruiting PhD students, post-doctoral researchers, and research assistants — see the [recruiting page](/recruiting) for details!*
 
 Previously, I completed my PhD in the the MIT [Probabilistic Computing Project](http://probcomp.csail.mit.edu/) and [Computational Cognitive Science lab](https://cocosci.mit.edu/), advised by [Vikash Mansinghka](http://probcomp.csail.mit.edu/principal-investigator/) and [Josh Tenenbaum](https://cocosci.mit.edu/josh).
+
+I publish under the name "Tan Zhi-Xuan". This means an [APA citation](https://apastyle.apa.org/style-grammar-guidelines/citations/basic-principles/author-date) should look like (Zhi-Xuan, YYYY). "Tan" is my surname (transliterated from Hokkien), "Zhi Xuan" is my given name (in Mandarin / pinyin), and "Xuan" (pronounced *ɕɥɛn / sh-yen*) is the name I usually go by. I use [they/them](https://en.pronouns.page/are/they/them) or [she/her](https://en.pronouns.page/are/she/her) pronouns.
+
+## research interests
 
 My research on cooperative intelligence sits at the intersection of *Bayesian modeling*, *AI alignment*, and *cognitive science*, asking questions like:
 - How can we specify rich yet structured generative models of human reasoning, decision-making, and value formation?<sup>[1][ref_sips],[2][ref_brbtom],[3][ref_clips],[4][ref_namg],[5][ref_beyond]</sup>
@@ -30,19 +36,19 @@ My research on cooperative intelligence sits at the intersection of *Bayesian mo
 
 To answer these questions, my work includes the development of infrastructure for [probabilistic programming](https://www.gen.dev/)<sup>[9][ref_smcp3],[10][ref_genify]</sup> and [model-based planning](https://github.com/JuliaPlanners/PDDL.jl)<sup>[11][ref_pddljl],[12][ref_absint]</sup>, so as to enable fast and flexible Bayesian inference over complex models of agents and their environments. By developing engineering platforms for more auditable AI systems with stronger algorithmic guarantees, I hope to support the growth of [well-founded and human-compatible AI](https://youtu.be/mYOg8_iPpFg?t=924).
 
-I am committed to promoting diversity, equity, inclusion, and justice (DEIJ) in computer science, and to helping steer the development of AI towards beneficial and equitable outcomes for all. To those ends, I help to organize DEIJ groups such as [Julia Gender Inclusive](https://discourse.julialang.org/t/announcing-julia-gender-inclusive/63702), and serve in advisory role to several AI alignment non-profits ([PIBBSS](https://www.pibbss.ai/); [Meaning Alignment Institute](https://www.meaningalignment.org/)).
-
-I publish under the name "Tan Zhi-Xuan". This means an [APA citation](https://apastyle.apa.org/style-grammar-guidelines/citations/basic-principles/author-date) should look like (Zhi-Xuan, YYYY). "Tan" is my surname (transliterated from Hokkien), "Zhi Xuan" is my given name (in Mandarin / pinyin), and "Xuan" (pronounced *ɕɥɛn / sh-yen*) is the name I usually go by. I use [they/them](https://en.pronouns.page/are/they/them) or [she/her](https://en.pronouns.page/are/she/her) pronouns.
+I see the ultimate goal of this research as steering the development and deployment of AI towards beneficial and equitable outcomes for all, despite our plural and often divergent values. For more on my views regarding AI alignment, safety, and the importance of cooperation in an increasingly automated future, see my talks and interviews on [contractualist AI alignment](https://www.youtube.com/watch?v=GUzY24HhQME) and the [limitations of preference-based alignment](https://www.youtube.com/watch?v=Y21syyyABOs). I also serve in advisory role to several AI alignment non-profits ([PIBBSS](https://www.pibbss.ai/); [Meaning Alignment Institute](https://www.meaningalignment.org/)).
 
 ## mentoring & teaching
 
-I am fortunate to have worked with and mentored many Masters and junior PhD students over the course of my PhD, including Jordyn Mann (on neurosymbolic goal inference<sup>[13][ref_neurosym]</sup>), [Gloria Lin](https://gzlin7.github.io/) (on active structure learning for Gaussian Processes<sup>[14][ref_gpactive]</sup>), [Jovana Kondic](https://scholar.google.com/citations?user=CmAO43YAAAAJ&hl=en) (on inverse motion planning<sup>[15][ref_imp]</sup>), and [Lance Ying](https://scholar.harvard.edu/lanceying/home) (on integrating large language models with Bayesian theory-of-mind<sup>[16][ref_labtom]</sup>).
+If you are interested in working with me, please see my [recruiting page](/recruiting)!
+
+I am fortunate to have worked with and mentored many Masters and junior PhD students over the course of my research career, including Jordyn Mann (on neurosymbolic goal inference<sup>[13][ref_neurosym]</sup>), [Gloria Lin](https://gzlin7.github.io/) (on active structure learning for Gaussian Processes<sup>[14][ref_gpactive]</sup>), [Jovana Kondic](https://scholar.google.com/citations?user=CmAO43YAAAAJ&hl=en) (on inverse motion planning<sup>[15][ref_imp]</sup>), and [Lance Ying](https://scholar.harvard.edu/lanceying/home) (on integrating large language models with Bayesian theory-of-mind<sup>[16][ref_labtom]</sup>).
 
 I have also served as a mentor for the [PIBBSS Summer Fellowship](https://pibbss.ai/fellowship/) from 2022 to 2024, working with [Zachary Peck](https://researchdirectory.uc.edu/p/peckzy), [Mel Andrews](https://mel-andrews.com/), [Ninell Oldenburg](https://ninell-oldenburg.github.io/), and [Agustín Martinez Suñé](https://agusmartinez.ar/) on a range of topics across philosophy of AI, social norm learning<sup>[4][ref_namg]</sup>, and safety guarantees for LLM-based agents.
 
-In Spring 2022, I was a teaching assistant for the graduate seminar on [Bayesian Modeling and Inference](https://tamarabroderick.com/course_6_435_2022_spring.html) taught by [Tamara Broderick](https://tamarabroderick.com/). As a TA, I supported students in understanding and presenting papers on variational inference, MCMC methods, and Bayesian non-parametrics, while providing guidance and debugging support for their course projects.
+In Fall 2025, I taught a graduate seminar on [Rational Approaches to Cooperative Intelligence](https://cosilab.notion.site/cs6101-raci-fall-2025). In Spring 2022, I was a teaching assistant for the graduate seminar on [Bayesian Modeling and Inference](https://tamarabroderick.com/course_6_435_2022_spring.html) taught by [Tamara Broderick](https://tamarabroderick.com/). 
 
-If you are interested in working with me, please see my [recruiting page](/recruiting)!
+I am committed to promoting diversity, equity, inclusion, and justice (DEIJ) in computer science. To that end, I have been an organizer for groups such as [Julia Gender Inclusive](https://discourse.julialang.org/t/announcing-julia-gender-inclusive/63702) and [THRIVE @ MIT EECS](https://www.facebook.com/eecsthrive/). If you are an underrepresented student in computer science looking for support or advice, feel free to reach out!
 
 [ref_sips]: https://arxiv.org/abs/2006.07532
 [ref_brbtom]: https://arxiv.org/abs/2106.13249
