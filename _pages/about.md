@@ -20,8 +20,6 @@ I am an Assistant Professor in the National University of Singapore's [Departmen
 
 I run the [Cooperative Intelligence & Systems (CoSI)](https://cosilab.github.io) lab, which is focused on ***scaling cooperative intelligence*** via rational, model-based AI engineering.
 
-*I am actively recruiting PhD students, post-doctoral researchers, and research assistants — see the [recruiting page](/recruiting) for details!*
-
 Previously, I completed my PhD in the the MIT [Probabilistic Computing Project](http://probcomp.csail.mit.edu/) and [Computational Cognitive Science lab](https://cocosci.mit.edu/), advised by [Vikash Mansinghka](http://probcomp.csail.mit.edu/principal-investigator/) and [Josh Tenenbaum](https://cocosci.mit.edu/josh).
 
 I publish under the name "Tan Zhi-Xuan". This means an [APA citation](https://apastyle.apa.org/style-grammar-guidelines/citations/basic-principles/author-date) should look like (Zhi-Xuan, YYYY). "Tan" is my surname (transliterated from Hokkien), "Zhi Xuan" is my given name (in Mandarin / pinyin), and "Xuan" (pronounced *ɕɥɛn / sh-yen*) is the name I usually go by. I use [they/them](https://en.pronouns.page/are/they/them) or [she/her](https://en.pronouns.page/are/she/her) pronouns.
