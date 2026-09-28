@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an Assistant Professor in the National University of Singapore's [Department of Computer Science](https://www.comp.nus.edu.sg/cs/) with a joint appointment at the [A\*STAR Institute of High Performance Computing (IHPC)](https://www.a-star.edu.sg/ihpc).
+I am an Assistant Professor in the National University of Singapore's [Department of Computer Science](https://www.comp.nus.edu.sg/cs/) with a joint appointment at the [A\*STAR Institute of Advanced Intelligence & Computing (IAIC)](https://www.a-star.edu.sg/iaic).
 
 I run the [Cooperative Intelligence & Systems (CoSI)](https://cosilab.github.io) lab, which is focused on ***scaling cooperative intelligence*** via rational, model-based AI engineering.
 
@@ -34,19 +34,17 @@ My research on cooperative intelligence sits at the intersection of *Bayesian mo
 
 To answer these questions, my work includes the development of infrastructure for [probabilistic programming](https://www.gen.dev/)<sup>[9][ref_smcp3],[10][ref_genify]</sup> and [model-based planning](https://github.com/JuliaPlanners/PDDL.jl)<sup>[11][ref_pddljl],[12][ref_absint]</sup>, so as to enable fast and flexible Bayesian inference over complex models of agents and their environments. By developing engineering platforms for more auditable AI systems with stronger algorithmic guarantees, I hope to support the growth of [well-founded and human-compatible AI](https://youtu.be/mYOg8_iPpFg?t=924).
 
-I see the ultimate goal of this research as steering the development and deployment of AI towards beneficial and equitable outcomes for all, despite our plural and often divergent values. For more on my views regarding AI alignment, safety, and the importance of cooperation in an increasingly automated future, see my talks and interviews on [contractualist AI alignment](https://www.youtube.com/watch?v=GUzY24HhQME) and the [limitations of preference-based alignment](https://www.youtube.com/watch?v=Y21syyyABOs). I also serve in advisory role to several AI alignment non-profits ([PIBBSS](https://www.pibbss.ai/); [Meaning Alignment Institute](https://www.meaningalignment.org/)).
+I see the ultimate goal of this research as steering the development and deployment of AI towards beneficial and equitable outcomes for all, despite our plural and often divergent values. For more on my views regarding AI alignment, safety, and the importance of cooperation in an increasingly automated future, see my talks and interviews on [scaling cooperative intelligence](https://www.youtube.com/watch?v=5rQFnHnd4ag) and the [limitations of preference-based alignment](https://www.youtube.com/watch?v=Y21syyyABOs). I also serve in advisory role to several AI alignment non-profits ([PIBBSS](https://www.pibbss.ai/); [Meaning Alignment Institute](https://www.meaningalignment.org/)), and as an editorial board member for the magazine [Pax Machina](https://paxmachina.ai/).
 
 ## mentoring & teaching
 
 If you are interested in working with me, please see my [recruiting page](/recruiting)!
 
-I am fortunate to have worked with and mentored many Masters and junior PhD students over the course of my research career, including Jordyn Mann (on neurosymbolic goal inference<sup>[13][ref_neurosym]</sup>), [Gloria Lin](https://gzlin7.github.io/) (on active structure learning for Gaussian Processes<sup>[14][ref_gpactive]</sup>), [Jovana Kondic](https://scholar.google.com/citations?user=CmAO43YAAAAJ&hl=en) (on inverse motion planning<sup>[15][ref_imp]</sup>), and [Lance Ying](https://scholar.harvard.edu/lanceying/home) (on integrating large language models with Bayesian theory-of-mind<sup>[16][ref_labtom]</sup>).
+I am fortunate to work with an amazing group of researchers, who collectively form the [Cooperative Intelligence & Systems (CoSI)](https://cosilab.github.io). See our lab's [people page](https://cosilab.github.io/people/) for more information about them! I also sometimes serve as a mentor for the [PIBBSS Summer Fellowship](https://pibbss.ai/fellowship/).
 
-I have also served as a mentor for the [PIBBSS Summer Fellowship](https://pibbss.ai/fellowship/) from 2022 to 2024, working with [Zachary Peck](https://researchdirectory.uc.edu/p/peckzy), [Mel Andrews](https://mel-andrews.com/), [Ninell Oldenburg](https://ninell-oldenburg.github.io/), and [Agustín Martinez Suñé](https://agusmartinez.ar/) on a range of topics across philosophy of AI, social norm learning<sup>[4][ref_namg]</sup>, and safety guarantees for LLM-based agents.
+Since Fall 2025, I have been teaching a graduate seminar on [Rational Approaches to Cooperative Intelligence](https://cosilab.notion.site/cs6101-raci-fall-2025). This seminar's format is inspried greatly by the time I was a teaching assistant for the Spring 2022 graduate seminar on [Bayesian Modeling and Inference](https://tamarabroderick.com/course_6_435_2022_spring.html) taught by [Tamara Broderick](https://tamarabroderick.com/). 
 
-In Fall 2025, I taught a graduate seminar on [Rational Approaches to Cooperative Intelligence](https://cosilab.notion.site/cs6101-raci-fall-2025). In Spring 2022, I was a teaching assistant for the graduate seminar on [Bayesian Modeling and Inference](https://tamarabroderick.com/course_6_435_2022_spring.html) taught by [Tamara Broderick](https://tamarabroderick.com/). 
-
-I am committed to promoting diversity, equity, inclusion, and justice (DEIJ) in computer science. To that end, I have been an organizer for groups such as [Julia Gender Inclusive](https://discourse.julialang.org/t/announcing-julia-gender-inclusive/63702) and [THRIVE @ MIT EECS](https://www.facebook.com/eecsthrive/). If you are an underrepresented student in computer science looking for support or advice, feel free to reach out!
+I am committed to promoting diversity, equity, inclusion, and justice (DEIJ) in computer science. To that end, I have been an organizer for groups such as [Julia Gender Inclusive](https://discourse.julialang.org/t/announcing-julia-gender-inclusive/63702). If you are an underrepresented student in computer science looking for support or advice, feel free to reach out!
 
 [ref_sips]: https://arxiv.org/abs/2006.07532
 [ref_brbtom]: https://arxiv.org/abs/2106.13249
@@ -60,7 +58,3 @@ I am committed to promoting diversity, equity, inclusion, and justice (DEIJ) in 
 [ref_genify]: https://popl21.sigplan.org/details/lafi-2021-papers/5/
 [ref_pddljl]: https://dspace.mit.edu/handle/1721.1/143179
 [ref_absint]: https://arxiv.org/abs/2208.02938
-[ref_neurosym]: https://dspace.mit.edu/handle/1721.1/130701
-[ref_gpactive]: https://dspace.mit.edu/handle/1721.1/143176
-[ref_imp]: https://dspace.mit.edu/handle/1721.1/153789
-[ref_labtom]: https://arxiv.org/abs/2408.12022
