@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I started as a Presidential Young Professor (Assistant Professor) at [NUS Computer Science](https://www.comp.nus.edu.sg/cs/) in August 2025.
+I started as a Presidential Young Professor (Assistant Professor) at [NUS Computer Science](https://www.comp.nus.edu.sg/cs/).
