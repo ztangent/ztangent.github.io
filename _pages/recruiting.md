@@ -26,7 +26,7 @@ As the principal investigator of the [Cooperative Intelligence & Systems (CoSI)]
   - Multi-resolution world/agent modeling via probabilistic programs
   - Belief-space planning with symbolic/abstract belief representations
 
-For a summary of my research interests and tastes, check out [the talk I gave for my PhD thesis defense](https://www.youtube.com/watch?v=cT6vm2tdJTQ), my [faculty research statement](/assets/pdf/2024-faculty-research-statement.pdf), or my [start-up grant proposal](/assets/pdf/2025-startup-grant-proposal.pdf). See my [about page](/) for mentees I have previously worked with.
+For a summary of my research interests and tastes, check out [the talk I gave for my PhD thesis defense](https://www.youtube.com/watch?v=cT6vm2tdJTQ), this more recent talk on [scaling cooperative intelligence for pluralistic AI futures](https://www.youtube.com/watch?v=5rQFnHnd4ag), my [faculty research statement](/assets/pdf/2024-faculty-research-statement.pdf), or my [start-up grant proposal](/assets/pdf/2025-startup-grant-proposal.pdf). See my [about page](/) for mentees I have previously worked with.
 
 If you are interested in working with me on these topics (or potentially others), please email ***xuan.cs [at] nus.edu.sg*** sharing more about your interests and background! (If you're nervous about sending an email, Eugene Vinitsky has written [a great guide](https://www.eugenevinitsky.com/posts/coldemails/) on how to send a cold emails to researchers.)
 

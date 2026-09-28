@@ -3,12 +3,8 @@ layout: page
 permalink: /repositories/
 title: Repositories
 description:
-nav: true
+nav: false
 nav_order: 5
-profile:
-  image: repo-profile.png
-  image_circular: false # crops the image to make it circular
-  caption: "A portrait by my (former) mentee Gloria Lin."
 ---
 
 {% if site.data.repositories.github_users %}
